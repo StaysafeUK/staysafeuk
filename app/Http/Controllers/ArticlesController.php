@@ -1,0 +1,103 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Article;
+use App\Tag;
+use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\Model;
+
+class ArticlesController extends Controller
+{
+    public function index()
+
+    //Render a list of a resource
+    {
+        if (request('tag')) {
+            $articles = Tag::where('name', request('tag'))->firstorFail()->articles;
+
+        } else {
+            $articles = Article::latest()->get();
+
+        }
+
+        $articles=Article::latest()->get();
+
+        return view('articles.index', [ 'articles' => $articles]);
+    }
+
+    public function show(Article $article)
+
+    // Show a single resource
+    {
+        return view('articles.show', ['article' => $article ]);
+    }
+
+    public function create()
+
+    //show a view to create a new resource
+    {
+
+        return view('articles.create');
+           // 'tags' => Tag::all()
+
+
+    }
+
+
+    public function store()
+
+    //Persist the new resource
+    {
+        dd(request()->all());
+        Article::create($this->validateArticle());
+
+
+        return redirect(route('articles.index'));
+
+    }
+
+    public function edit(Article $article)
+
+
+    // show a view to edit an existing resource
+    {
+    //    $article = Article::find($id);
+    // find the article associated with the id
+
+
+
+        return view('articles.edit', compact('article'));
+    }
+
+
+
+   public function update(Article $article)
+   //Persist the edited resource
+
+   {
+    //    $article=Article::findorFail($id);
+
+        $article->update($this->validateArticle());
+        return redirect(route($article->path));
+
+    }
+
+  //  public function destroy()
+
+    //delete the resource
+   // {
+
+   // }
+
+   protected function validateArticle()
+   {
+       return request()->validate([
+           'title' => 'required',
+           'excerpt' => 'required',
+           'body' => 'required'
+
+       ]);
+   }
+
+}
