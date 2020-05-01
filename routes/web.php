@@ -61,13 +61,16 @@ Route::get('/articles/create', 'ArticlesController@create');
 Route::get('/articles/{article}', 'ArticlesController@show')->name('articles.show');
 Route::get('/articles/{article}/edit', 'ArticlesController@edit');
 Route::put('/articles/{article}', 'ArticlesController@update');
-
 Route::get('/posts/{post}', 'PostsController@show');
-
-
-
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('message/{mail}',  'MessageController@create.php');
+Route::post('message/{mail}', 'MessageController@store.php');
+
+//Route::post('users/{id}', function ($id) {
+//});('/message/mail', 'MessageController@index');
+
+// Auth::routes();
 
 
 Route::get('/home', 'HomeController@index')->name('home');

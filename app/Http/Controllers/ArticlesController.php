@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Article;
-use App\Tag;
+// use App\Tag;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Model;
 
@@ -13,15 +13,15 @@ class ArticlesController extends Controller
 
     //Render a list of a resource
     {
-        if (request('tag')) {
-            $articles = Tag::where('name', request('tag'))->firstorFail()->articles;
+       // if (request('tag')) {
+       //     $articles = Tag::where('name', request('tag'))->firstorFail()->articles;
 
-        } else {
-            $articles = Article::latest()->get();
+       // } else {
+         //   $articles = Article::latest()->get();
 
-        }
+       // }
 
-        $articles=Article::latest()->get();
+       $articles=Article::latest()->get();
 
         return view('articles.index', [ 'articles' => $articles]);
     }
@@ -62,7 +62,7 @@ class ArticlesController extends Controller
 
     // show a view to edit an existing resource
     {
-    //    $article = Article::find($id);
+        $article = Article::find($id);
     // find the article associated with the id
 
 
