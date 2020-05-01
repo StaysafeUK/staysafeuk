@@ -5,39 +5,59 @@
 	<div id="page" class="container">
 		<div id="content">
 			<div class="title">
-				<h2>Welcome to our website</h2>
-				<span class="byline">Mauris vulputate dolor sit amet nibh</span> </div>
+				<h2>Welcome to StaysafeUK</h2>
+				<span class="byline">Posting all your needs to Charities accross the country</span> </div>
 			<p><img src="/images/banner.jpg" alt="" class="image image-full" /> </p>
-			<p>Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Suspendisse iaculis mauris nec lorem. Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. </p>
-			<p>Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo.</p>
-			<p>Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo.</p>
-		</div>
+			<p> This website is designed so your posts can be delivered to charities once you create an account.  The relevant charity for your location will
+                then be emailed your request for your area and you will be contacted by a support worker during these difficult times.</p>
+
+            <p>Your post needs to have your email address and contact name so you can be contacted</p>
+
+            <p>The posts that are created will be kept secure in our database and only your designated charity will receive the details of your request.</p>
+
+            <p>Your also welcome to post content on our blog site posting information that you think  will be helpful to others. </p>
+
+            <p>Registration is simple,  click on the link registration at the bottom of this page.</p>
+
+            <p>I hope that this is a useful service. </p>
+
+            <p>From StaysafeUK all the best!</p>
+
+
+
+            <a href="/register" class="button">Registration</a> </div>
+        </div>
 		<div id="sidebar">
 			<ul class="style1">
 				<li class="first">
-					<h3>Amet sed volutpat mauris</h3>
-					<p><a href="#">In posuere eleifend odio. Quisque semper augue mattis wisi. Pellentesque viverra vulputate enim. Aliquam erat volutpat.</a></p>
+					<h3>Volunteering in the UK for the NHS</h3>
+                    <p><a href="https://www.england.nhs.uk/participation/get-involved/volunteering/">Many NHS organisations and charities need help from volunteers.
+                        This is a great way to get involved in the community. There are volunteer centres across the country, and many NHS trusts have volunteer managers
+                        you can contact if you want to find out about volunteer opportunities in your area.</a></p>
 				</li>
 				<li>
-					<h3>Sagittis diam dolor sit amet</h3>
-					<p><a href="#">In posuere eleifend odio. Quisque semper augue mattis wisi. Pellentesque viverra vulputate enim. Aliquam erat volutpat.</a></p>
+					<h3>NHS Online consultations</h3>
+                    <p><a href="https://www.nhs.uk/using-the-nhs/nhs-services/the-nhs-app/help/online-consultations/">An online consultation enables you to contact a GP
+                        or other health professional over the internet. It saves you waiting for an appointment or going to the GP surgery.</a></p>
 				</li>
 				<li>
-					<h3>Maecenas ac quam risus</h3>
-					<p><a href="#">In posuere eleifend odio. Quisque semper augue mattis wisi. Pellentesque viverra vulputate enim. Aliquam erat volutpat.</a></p>
+					<h3>NHS 111 online</h3>
+                    <p><a href="https://digital.nhs.uk/services/nhs-111-online">NHS 111 online allows patients to get urgent healthcare online. It also helps to manage
+                        increasing demand on 111 telephone services. </a></p>
 				</li>
 			</ul>
-			<div id="stwo-col">
+			<div id="sone-col">
 				<div class="sbox1">
-					<h2>Etiam rhoncus</h2>
+					<h2>Covid 19 Links</h2>
 					<ul class="style2">
-						<li><a href="#">Semper quis egetmi dolore</a></li>
-						<li><a href="#">Quam turpis feugiat dolor</a></li>
-						<li><a href="#">Amet ornare hendrerit lectus</a></li>
-						<li><a href="#">Quam turpis feugiat dolor</a></li>
+						<li><a href="https://coronavirus.data.gov.uk/?_ga=2.14377140.2009316883.1588286222-664519403.1588286222#regions">Covid 19 Mobile Dashboard Regions</a></li>
+						<li><a href="https://www.gov.uk/coronavirus?gclid=Cj0KCQjw7qn1BRDqARIsAKMbHDY4tab1mRjJIGPu0Dj3voEcM0SlYLwAHeH3E6jhhI4iSCpYkvaVvW8aAu-REALw_wcB">Coronavirus (COVID-19): what you need to do </a></li>
+                        <li><a href="https://www.boutiquecarehomes.co.uk/article/20-things-you-can-do-to-keep-yourself-busy-when-confined-at-home-during-covid-19"> 20 things you can do to keep yourself busy when
+                        confined at home during COVID-19...</a></li>
+
 					</ul>
 				</div>
-				<div class="sbox2">
+			<!--	<div class="sbox2">
 					<h2>Integer gravida</h2>
 					<ul class="style2">
 						<li><a href="#">Semper quis egetmi dolore</a></li>
@@ -45,7 +65,7 @@
 						<li><a href="#">Consequat lorem phasellus</a></li>
 						<li><a href="#">Amet turpis feugiat amet</a></li>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>

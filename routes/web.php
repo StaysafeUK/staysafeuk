@@ -36,7 +36,8 @@ use illuminate\Support\Facades\Route;
 
 Route::get('/about', function () {
     return view ('about', [
-        'articles' => App\Article::latest()->get()
+    'articles' => App\Article::latest()->get()
+
     ]);
 
     Route::get('/auth/login' , function () {
@@ -48,8 +49,6 @@ Route::get('/about', function () {
 //    dd('articles/$create');
 //    return view ('create');
   });
-
-
 
 Route::get('/contact', function () {
     return view('contact');
@@ -66,3 +65,9 @@ Route::put('/articles/{article}', 'ArticlesController@update');
 Route::get('/posts/{post}', 'PostsController@show');
 
 
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+Route::get('/home', 'HomeController@index')->name('home');
