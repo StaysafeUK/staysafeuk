@@ -1,5 +1,7 @@
 <?php
-use illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -68,9 +70,10 @@ Route::get('message/{mail}',  'MessageController@create.php');
 Route::post('message/{mail}', 'MessageController@store.php');
 
 //Route::post('users/{id}', function ($id) {
-//});('/message/mail', 'MessageController@index');
+ //});('/message/mail', 'MessageController@index');
 
 // Auth::routes();
 
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
