@@ -5,13 +5,13 @@ namespace App\Http\Controllers;
 use App\Article;
 use Illuminate\Http\Request;
 
-class ArticlesController extends Controller
+class ArticlesControllerold extends Controller
 {
     public function create()
 
     //show a view to create a new resource
     {
-        
+
         return view('articles.create');
 
     }
@@ -29,7 +29,7 @@ class ArticlesController extends Controller
 
     // Show a single resource
     {
-        
+
         $article=Article::findorFail($id);
 
         return view('articles.show', ['article' => $article ]);
@@ -56,35 +56,35 @@ class ArticlesController extends Controller
         $article->save();
         return redirect('/articles');
     }
-    
+
     public function edit($id)
-    
-    
+
+
     // show a view to edit an existing resource
     {
         $article = Article::find($id);
     // find the article associated with the id
 
-        
+
 
         return view('articles.edit', ['article' => $article]);
     }
 
-    
+
 
    public function update($id)
    {
-    
+
     request()->validate([
         'title' => 'required',
         'excerpt' => 'required',
         'body' => 'required',
     ]);
-   
+
     //Persist the edited resource
-    
+
         $article=Article::findorFail($id);
-        
+
         $article->title = request('title');
         $article->excerpt = request('excerpt');
         $article->body = request('body');

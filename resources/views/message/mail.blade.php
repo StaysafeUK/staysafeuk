@@ -3,26 +3,28 @@
 @section('head')
 <!-- <link href="css/default.css" rel="stylesheet" type="text/css" media="all" /> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
+@endsection
 
 @section('content')
 
     <div id="wrapper">
         <div id="page" class="container">
-            <h1 class="heading has-text-weight-bold is-size-4">New Article</h1>
+            <h1 class="heading has-text-weight-bold is-size-4">Please Send us your problem</h1>
 
-            <form method="POST" action="/message/">
+            <form method="POST" action="/message">
                  @csrf
+                 @method('PUT')
 
                 <div class="field">
-                    <label class="label" for="FirstName">Title</label>
+                    <label class="label" for="Title">Title</label>
 
                     <div class="control">
                         <input
-                        class="input @error ('FirstName') ? is-danger @enderror"
+                        class="input @error ('Title') ? is-danger @enderror"
                         type="text"
-                        name="FirstName"
-                        id="FirstName"
-                        value="{{ old('FirstName') }}">
+                        name="Title"
+                        id="Title"
+                        value="{{ old('Title') }}">
 
                         @error ('FirstName')
                             <p class="help is-danger">{{ $errors->first('FirstName') }}</p>
@@ -32,23 +34,39 @@
                 </div>
 
                 <div class="field">
-                    <label class="label" for="SirName">SirName</label>
+                    <label class="label" for="FirstName">FirstName</label>
 
                     <div class="control">
                         <textarea
-                        class="textarea @error ('SirName') ? is-danger @enderror"
-                        name="SirName"
-                        id="SirName"
-                        >{{ old('SirName') }}</textarea>
+                        class="textarea @error ('FirstName') ? is-danger @enderror"
+                        name="FirstName"
+                        id="FirstName"
+                        >{{ old('FirstName') }}</textarea>
 
-                        @error ('SirName')
-                            <p class="help is-danger">{{ $errors->first('SirName') }}</p>
+                        @error ('FirstName')
+                            <p class="help is-danger">{{ $errors->first('FirstName') }}</p>
                         @endif
                     </div>
                 </div>
 
                 <div class="field">
-                    <label class="label" for="County">Phone</label>
+                    <label class="label" for="Sirname">Sirname</label>
+
+                    <div class="control">
+                        <textarea
+                        class="textarea @error ('Sirname') ? is-danger @enderror"
+                        name="Sirname"
+                        id="Sirname"
+                        >{{ old ('Sirname') }}</textarea>
+
+                        @error ('Sirname')
+                            <p class="help is-danger">{{ $errors->first('Sirname') }}</p>
+                        @endif
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label" for="County">County</label>
 
                     <div class="control">
                         <textarea
@@ -64,23 +82,7 @@
                 </div>
 
                 <div class="field">
-                    <label class="label" for="Phone">Phone</label>
-
-                    <div class="control">
-                        <textarea
-                        class="textarea @error ('Phone') ? is-danger @enderror"
-                        name="Phone"
-                        id="Phone"
-                        >{{ old ('Phone') }}</textarea>
-
-                        @error ('Phone')
-                            <p class="help is-danger">{{ $errors->first('Phone') }}</p>
-                        @endif
-                    </div>
-                </div>
-
-                <div class="field">
-                    <label class="label" for="email">Phone</label>
+                    <label class="label" for="email">Email</label>
 
                     <div class="control">
                         <textarea

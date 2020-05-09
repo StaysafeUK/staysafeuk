@@ -36,7 +36,7 @@ Released   : 20140225
 				<li><a href="{{Request::path() === 'about' ? 'current_page_item' : ''}}"><a href="/about" accesskey="3" title="">Blogs</a></li>
 				<li><a href="{{Request::path() === 'articles' ? 'current_page_item' : ''}}"><a href="/articles"accesskey="4" title="">Articles</a></li>
 				<li><a href="{{Request::path() === 'contact' ? 'current_page_item' : ''}}"><a href="/contact" accesskey="5" title="">Contact Us</a></li>
-                <li><a href="{{Request::path() === 'create' ? 'current_page_item' : ''}}"><a href="/articles/create" accesskey="5" title="create">Create</a></li>
+                <li><a href="{{Request::path() === 'mail' ? 'current_page_item' : ''}}"><a href="/message/mail" accesskey="5" title="">Message</a></li>
                 <li><a href="{{Request::path() === 'login' ? 'current_page_item' : ''}}"><a href="/login" accesskey="6" title="">Login</a></li>
 			</ul>
 		</div>

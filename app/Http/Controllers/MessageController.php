@@ -23,7 +23,7 @@ class MessageController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create2()
     {
         return view('message.mail');
     }
@@ -89,5 +89,17 @@ class MessageController extends Controller
     public function destroy(mail $mail)
     {
         //
+    }
+
+    protected function validateMail()
+    {
+        return request()->validate([
+            'title' => 'required',
+            'FirstName' => 'required',
+            'Sirname' => 'required',
+            'County' => 'required',
+            'Email' => 'required',
+            'Message' => 'required',
+        ]);
     }
 }

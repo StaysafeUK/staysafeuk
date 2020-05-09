@@ -7,7 +7,7 @@ use phpDocumentor\Reflection\DocBlock\Tag;
 
 class Article extends Model
 {
-    protected $fillable = ['title', 'excerpt', 'body'];
+    protected $fillable = ['user_id'. 'title', 'excerpt', 'body'];
     protected $guarded = [];
 
    public function path()
@@ -17,7 +17,7 @@ class Article extends Model
 
    public function author()
    {
-       return $this->belongsTo(user::class, 'user_id');
+       return $this->belongsTo(User::class, 'user_id');
    }
 
    public function tags()

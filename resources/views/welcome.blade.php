@@ -8,7 +8,7 @@
 				<h2>Welcome to StaysafeUK</h2>
 				<span class="byline">Posting all your needs to Charities accross the country</span> </div>
 			<p><img src="/images/banner.jpg" alt="" class="image image-full" /> </p>
-			<p> This website is designed so your posts can be delivered to charities once you create an account.  The relevant charity for your location will
+			<p> This website is designed so your posts can be delivered to charities once you create an account & fill out the form provided.  The relevant charity for your location will
                 then be emailed your request for your area and you will be contacted by a support worker during these difficult times.</p>
 
             <p>Your post needs to have your email address and contact name so you can be contacted</p>

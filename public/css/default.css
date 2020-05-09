@@ -12,7 +12,7 @@ body
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
-	color: #6c6c6c;
+	color: #292525;
 }
 
 h1, h2, h3
@@ -110,7 +110,7 @@ a:hover
 	padding: 0em 0em 0em 0em;
 	overflow: hidden;
 	list-style: none;
-	color: #6c6c6c
+	color: #000;
 }
 
 ul.style1 li
@@ -359,7 +359,7 @@ ul.contact li a.icon-rss:before
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 1.1em;
-	color: #6F6F6F;
+	color: #000;
 }
 
 /*********************************************************************************/

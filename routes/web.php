@@ -1,6 +1,7 @@
 <?php
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 
 /*
@@ -66,8 +67,8 @@ Route::put('/articles/{article}', 'ArticlesController@update');
 Route::get('/posts/{post}', 'PostsController@show');
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('message/{mail}',  'MessageController@create.php');
-Route::post('message/{mail}', 'MessageController@store.php');
+Route::get('message/{mail}',  'MessageController@create2');
+Route::post('message/{mail}', 'MessageController@create2');
 
 //Route::post('users/{id}', function ($id) {
  //});('/message/mail', 'MessageController@index');
@@ -77,3 +78,5 @@ Route::post('message/{mail}', 'MessageController@store.php');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+

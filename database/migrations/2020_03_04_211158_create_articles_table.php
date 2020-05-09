@@ -14,6 +14,7 @@ class CreateArticlesTable extends Migration
     public function up()
     {
         Schema::create('articles', function (Blueprint $table) {
+        Schema::disableForeignKeyConstraints();
             $table->bigIncrements('id');
             $table->unsignedBigInteger('user_id');
             $table->string('title');
@@ -25,6 +26,7 @@ class CreateArticlesTable extends Migration
                 ->references('id')
                 ->on('users')
                 ->onDelete('cascade');
+
         });
     }
 

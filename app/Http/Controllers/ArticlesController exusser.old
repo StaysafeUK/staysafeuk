@@ -8,7 +8,7 @@ use App\Tag;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Model;
 
-class ArticlesController extends Controller
+class ArticlesControllerold extends Controller
 {
     public function index()
 
@@ -45,16 +45,19 @@ class ArticlesController extends Controller
 
     }
 
+
     public function store()
 
     //Persist the new resource
     {
-      // dd(request()->all());
+        dd(request()->all());
+        Article::create($this->validateArticle());
+        $articleData = $this->validateArticle();
 
-       Article::create($this->validateArticle());
 
 
-       return redirect(route('articles.index'));
+        return redirect(route('articles.index'));
+
     }
 
     public function edit(Article $article)
