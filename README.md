@@ -53,8 +53,12 @@ I am a Google Specialist in GCP with Full Stack Developer knowledge <img src="ht
 
 ### 🔥 My Stats:
 
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=staysafeuk&theme=dark&background=000000)](https://git.io/streak-stats)
 
-![](https://komarev.com/ghpvc/?username=staysafeUK)
+
+![](https://komarev.com/ghpvc/?username=staysafeuk)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=staysafeuk&layout=compact&theme=vision-friendly-dark)](https://github.com/staysafeuk/github-readme-stats)
 
 
 
