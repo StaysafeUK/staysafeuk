@@ -14,7 +14,7 @@
 I am a Google Specialist in GCP with Full Stack Developer knowledge <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from The United Kingdom.
 
 - ☁️ Google Cloud specialist 4+ years Compute, Cloud Storage, Cloud SQL, Big Query, GCP Networking, Cloud Run & GKE.
-- 🌱 Developing various full stack Django Framework on Front-end and Back-End sites using Heroku.
+- 🌱 Developing various full stack Django Framework on Front-end and Back-End sites using Heroku, GCP and AWS
 - 🔃 studied for GCPDE and enjoy working on ML and AI.
 - ⚡ In my free time,  I enjoy reading technical books, technical articles and keeping up with the latest technological trends.
 - 📬 How to Reach me:  [![Linkedin Badge](https://img.shields.io/badge/-JREVANS-blue?style=flat&logo=Linkedin&logoColor=white)](https%3A%2F%2Flinkedin.com%2Fin%2Fjustinrevans2024")
