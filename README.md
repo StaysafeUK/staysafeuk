@@ -47,9 +47,15 @@ I am a Google Specialist in GCP with Full Stack Developer knowledge <img src="ht
 
 ---
 <div id="badges">
-    <img src="https://img.shields.io/badge/LinkedIn%3A%20LinkedIn-blue?style=for-the-badge&link=https%3A%2F%2Flinkedin.com%2Fin%2Fjustinrevans2024">
-    <img src="https://img.shields.io/badge/JREvansProfile%3A%20Profile-purple?style=for-the-badge&link=https%3A%2F%2Fjrevansprofile.verifyus.co.uk">
-    <img src="https://img.shields.io/badge/Profile%3A%20Facebook-blue?style=for-the-badge&link=https%3A%2F%2Ffacebook.co.uk">    
+    <a href="https://linkedin.com/in/justinrevans2024">
+        <img src="https://img.shields.io/badge/LinkedIn%3A%20LinkedIn-blue?style=for-the-badge&link=https%3A%2F%2Flinkedin.com%2Fin%2Fjustinrevans2024">
+    </a>
+   <a href="https://jrevansprofile.verifyus.co.uk">
+       <img src="https://img.shields.io/badge/JREvansProfile%3A%20Profile-purple?style=for-the-badge&link=https%3A%2F%2Fjrevansprofile.verifyus.co.uk">
+   </a>
+    <a href="https://facebook.co.uk">
+        <img src="https://img.shields.io/badge/Profile%3A%20Facebook-blue?style=for-the-badge&link=https%3A%2F%2Ffacebook.co.uk">    
+    </a>
 </div>
 
 ### 🔥 My Stats:
