@@ -65,7 +65,7 @@ I am a Google Specialist in GCP with Full Stack Developer knowledge <img src="ht
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
    <a href="https://jrevansprofile.verifyus.co.uk">
-       <img src="https://img.shields.io/badge/JREvansProfile%3A%20Profile-purple?style=for-the-badge&link=https%3A%2F%2Fjrevansprofile.verifyus.co.uk">
+       <img src="https://img.shields.io/badge/JREvans%3A%20Profile-purple?style=for-the-badge&link=https%3A%2F%2Fjrevansprofile.verifyus.co.uk">
    </a>
     <a href="https://facebook.co.uk">
     <img src="https://img.shields.io/badge/Facebook-blue?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook Badge"/>    
