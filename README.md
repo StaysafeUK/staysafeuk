@@ -11,7 +11,7 @@
 
 ### 👨‍💻: About Me:  
 
-I am a Google Specialist in GCP with Full Stack Developer knowledge <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from The United Kingdom.
+I am a Google Specialist on GCP with Full Stack Developer knowledge <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from The United Kingdom.
 
 - ☁️ Google Cloud specialist 4+ years Compute, Cloud Storage, Cloud SQL, Big Query, GCP Networking, Cloud Run & GKE.
 - 🌱 Developing various full stack Django Framework on Front-end and Back-End sites using Heroku, GCP and AWS EC2.
