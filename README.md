@@ -81,7 +81,7 @@ I am a Google Specialist on GCP with Full Stack Developer knowledge <img src="ht
 
 ![](https://komarev.com/ghpvc/?username=staysafeuk)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=staysafeuk&layout=compact&theme=vision-friendly-dark)](https://github.com/staysafeuk/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=staysafeuk&layout=compact&theme=vision-friendly-dark)](https://github.com/StaysafeUK?tab=repositories)
 
 
 
