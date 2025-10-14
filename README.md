@@ -75,13 +75,13 @@ I am a Google Specialist on GCP with Full Stack Developer knowledge <img src="ht
 
 ### 🔥 My Stats:
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=StaysafeUK&theme=dark&background=000000)](https://github.com/StaysafeUK?tab=repositories)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=staysafeuk&theme=dark&background=000000)](https://github.com/staysafeuk?tab=repositories)
 
 ---
 
-![](https://komarev.com/ghpvc/?username=StaysafeUK)
+![](https://komarev.com/ghpvc/?username=staysafeuk)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=StaysafeUKk&layout=compact&theme=vision-friendly-dark)](https://github.com/StaysafeUK?tab=repositories)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=staysafeuk&layout=compact&theme=vision-friendly-dark)](https://github.com/staysafeuk?tab=repositories)
 
 
 
