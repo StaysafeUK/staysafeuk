@@ -75,7 +75,7 @@ I am a Google Specialist on GCP with Full Stack Developer knowledge <img src="ht
 
 ### 🔥 My Stats:
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=staysafeuk&theme=dark&background=000000)](https://github.com/staysafeuk?tab=repositories)
+[![GitHub Streak](https://streak-stats.top/?user=staysafeuk&theme=dark&background=000000)](https://github.com/staysafeuk?tab=repositories)
 
 ---
 
