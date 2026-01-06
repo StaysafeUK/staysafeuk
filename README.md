@@ -13,7 +13,7 @@
 
 I am a Google Specialist on GCP with Full Stack Developer knowledge <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Berkshire United Kingdom.
 
-- ☁️ Google Cloud specialist 5+ years Google Compute, Cloud Storage, Cloud SQL, Big Query, GCP Networking, Cloud Run, Apigee & GKE.
+- ☁️ Google Cloud specialist 5+ years Google Compute, IAM,  Cloud Storage, Cloud SQL, Big Query, GCP Networking, Cloud Run, Identity workload, Apigee & GKE.
 - 🌱 Developing various full stack Django Framework & PHP Laravel framework on Front-end and Back-End sites using Heroku, GCP and AWS EC2.
 - 🔃  I studied for GCPDE and enjoy working on ML and AI.
 - ⚡ In my free time,  I enjoy reading, keeping my sites updated, music, films and keeping up to date on the latest technological trends. 
